@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+main {
+  margin: 1rem 6rem 1rem 6rem;
+}
+
+/*          Nav section     */
+nav {
+  height: 91px;
+  margin-top: 3rem;
+}
+
+.nav-bar {
+  color: FFFFFF;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+}
+.left-part p {
+  margin-top: 0.8rem;
+}
+
+.left-part {
+  display: flex;
+  gap: 1.25rem;
+  border: none;
+  margin-right: 18rem;
+  font-size: 0.85rem;
+}
+.left-part select {
+  border: none;
+}
+
+.right-part {
+  display: flex;
+  gap: 1.25rem;
+  font-size: 0.85rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-part p {
+  margin-top: 0.8rem;
+}
+.right-part a {
+  text-decoration: none;
+}
+.right-part button {
+  background-color: #4262ff;
+  color: #fff;
+  padding: 0.85rem 0.85rem;
+  border-radius: 2rem;
+  justify-content: center;
+  border: none;
+}
+
+/*          hero-section   */
+
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem 10rem 1.5rem 10rem;
+}
+
+.hero-section h2 {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+}
+.Miro-text {
+  color: #2f363b;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+.coll-text {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+  color: #2f363b;
+}
+
+.hero-search {
+  width: 25rem;
+  height: 2.5rem;
+  border: 2px solid rgb(218, 200, 200);
+  border-radius: 1.5rem;
+  justify-content: space-evenly;
+  background-color: white;
+  align-items: center;
+}
+
+.hero-section button {
+  width: 25rem;
+  height: 2.7rem;
+  border: none;
+  background-color: #4262ff;
+  border-radius: 2rem;
+  margin-top: 0.85rem;
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.star {
+  height: 5rem;
+  background-color: #f5f5f7;
+  border-radius: 1rem;
+}
+.review-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.get {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.star-section {
+  align-items: center;
+  color: yellowgreen;
+}
+
+.review {
+  font-size: 0.75rem;
+}
+
+/* Trusted by users  section */
+
+.users {
+  margin-top: 7rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #05003899;
+}
+.wal-image {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+/*   Feature Section*/
+
+.home-page {
+  display: flex;
+  justify-items: center;
+  align-items: end;
+  justify-content: center;
+}
+
+.colla {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.colla p {
+  font-size: 3rem;
+  color: #050038;
+  font-weight: 700;
+}
+
+.collab-section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.collab {
+  height: 250px;
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 10px;
+}
+
+.easy {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #050038;
+  margin-bottom: 2rem;
+}
+.miro {
+  color: #050038;
+  font-size: 1.13rem;
+  font-weight: 400;
+}
+
+span {
+  color: #4262ff;
+}
+
+.sign-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.sign-btn button {
+  background-color: #4262ff;
+  color: #fff;
+  width: 12rem;
+  height: 2.7rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+
+/* hybridwork Section*/
+
+.hybridwork {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 3rem;
+}
+.hybridwork h2 {
+  font-size: 3rem;
+  color: #050038;
+  font-weight: 700;
+  margin-bottom: 1.75rem;
+}
+.hybridwork p {
+  color: #050038;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+}
+
+.hybridwork a {
+  font-size: 1.2rem;
+}
+
+/*Connect tools section*/
+.connect {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 3rem;
+}
+
+.connect h2 {
+  font-size: 3rem;
+  color: #050038;
+  font-weight: 700;
+  margin-bottom: 1.75rem;
+  margin-left: 3rem;
+}
+
+.connect p {
+  color: #050038;
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
+
+.connect a {
+  font-size: 1.2rem;
+  margin-left: 3rem;
+}
+
+/*The ways we work*/
+
+
+section {
+  background-image: url(./images/the_way_work.png);
+  background-size: cover; 
+  height: 30rem;
+  width: 70rem;
+  position: relative;
+}
+
+.way-work {
+  position: absolute;
+  top: 60%; 
+  right: 0; 
+  transform: translateY(-50%); 
+  text-align: right; 
+}
+
+.way-work {
+  text-align: end;
+  justify-content: center;
+  align-items: center;
+  padding-right: 60px;
+}
+.way-work button {
+  background-color: #4262ff;
+  color: #fff;
+  width: 12rem;
+  height: 2.7rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+}
+
+/* Built for the way you work*/
+.built-work h2 {
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+.Brainstorming {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+}
+
+.Brainstorming a {
+  text-decoration: none;
+  padding: 0.9rem;
+  border: 1px solid lightgrey;
+  border-radius: 1rem;
+  color: #050038;
+  background-color: #f2f2f2;
+}
+
+.row h2 {
+  color: #050038;
+  font-weight: 400;
+  margin: 3rem 0;
+  font-size: 1.2rem;
+}
+
+.row h6 {
+  color: #050038;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+.row a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 5rem;
+}
+
+/*Built for all kinds of teams*/
+
+.row h5 {
+  margin-top: 4rem;
+}
+.row ul {
+  margin: 4rem 0;
+  font-size: 1.3rem;
+  list-style: none;
+}
+
+.row ul li:before {
+  content: '✓';
+}
+
+/*  Loved by the world's best teams*/
+
+.world {
+  text-align: center;
+  margin: 5rem;
+}
+
+.world h2 {
+  color: #050038;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.world a {
+  text-decoration: none;
+  border: 1px solid #4262ff;
+  padding: 0.85rem 2rem;
+  border-radius: 1.3rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+}
+
+/* Team Talk*/
+
+.row h6 {
+  margin-top: 2rem;
+}
+.Roxanne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jane {
+  margin-top: 7rem;
+}
+.laura {
+  margin-top: 5rem;
+}
+
+/* Footer section*/
+
+footer {
+  background-color: #02033b;
+  height: 40rem;
+  color: #ffffff;
+  margin-top: 5rem;
+}
+.container h4 {
+  margin: 5rem 0 2rem 5rem;
+}
+hr {
+  width: 10rem;
+  background-color: #ffc247;
+}
+
+.social {
+  margin: 0 0 2rem 5rem;
+}
+
+.social i {
+  margin-right: 2rem;
+}
+.policy {
+  margin: 0 0 2rem 5rem;
+}
+.policy a {
+  text-decoration: underline;
+  color: #ffffff;
+  margin-right: 2rem;
+  font-size: 0.75rem;
+}
+span i {
+  color: #ffffff;
+}
+.container p {
+  margin-left: 5rem;
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.bigger a {
+  font-size: 0.85rem;
+  text-decoration: underline;
+  color: #ffffff;
+  font-size: 0.75rem;
+}
+
+.container h3 {
+  margin: 5rem 0 0 1rem;
+}
+
+.col-sm-8 p {
+  margin: 5rem 5rem 0 rem;
+}
+
+a span {
+  color: #ffc247;
+}
+
+.newsletter {
+  height: 15rem;
+  width: 30rem;
+  background-color: #ffc247;
+  text-align: center;
+  justify-content: center;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+
+.newsletter h4 {
+  font-weight: 800;
+  color: #02033b;
+  margin-top: 2rem;
+}
+
+.newsletter p {
+  font-weight: 400;
+  color: #02033b;
+  font-size: 1.1rem;
+}
+
+.newsletter input {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border: none;
+}
+.newsletter button {
+  width: 6rem;
+  font-size: 1.1rem;
+  border: none;
+  color: #ffffff;
+  background-color: #02033b;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.newsletter-container {
+  background-color: #ffc247;
+  margin-top: 96px !important;
+  margin-right: 96px !important;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-container {
+  padding: 36px;
+}
+
+.text-container p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #02033b;
+  margin: 0;
+  margin-top: 21px;
+}
+.text-container div {
+  margin-top: 36px;
+}
+
+.newsletter-container h4 {
+  margin: 0;
+  color: #02033b;
+  font-weight: 800;
+  font-size: 23px;
+}
+
+.input-group input {
+  border-radius: 21px 0px 0px 21px;
+}
+.input-group button {
+  border-radius: 0px 21px 21px 0px;
+  background: #02033b;
+  color: #ffffff;
+}
+
+.idea-image {
+  margin-left: 27rem;
+  width: 173.38px;
+}
